@@ -17,24 +17,20 @@ BaseballStatistic::BaseballStatistic(string, string, string, int, string,int, in
 }
 	
 
-			
-
-		
-		//mutator
-		void setFirstName(std::string);
-		void setLastName(std::string);
-		void setTeamName(std::string);
-		void setJerseyNum(int);
-		void setPosition(std::string);
-		void setBatting(char);
-		void setThrowing(char);
-		void setAtBats(int);
-		void setBattingAverage(double);
-		void setHR(int);
-		void setRBI(int);
-		void setSB(int);
-		void setOPS(double);
-		void setERA(double);
+void BaseballStatistic::setFirstName(std::string);
+void BaseballStatistic::setLastName(std::string);
+		void BaseballStatistic::setTeamName(std::string);
+		void BaseballStatistic::setJerseyNum(int);
+		void BaseballStatistic::setPosition(std::string);
+		void BaseballStatistic::setBatting(char);
+		void BaseballStatistic::setThrowing(char);
+		void BaseballStatistic::setAtBats(int);
+		void BaseballStatistic::setBattingAverage(double);
+		void BaseballStatistic::setHR(int);
+		void BaseballStatistic::setRBI(int);
+		void BaseballStatistic::setSB(int);
+		void BaseballStatistic::setOPS(double);
+		void BaseballStatistic::setERA(double);
 		
 		
 		//accessor
